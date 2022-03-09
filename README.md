@@ -11,9 +11,9 @@
 
 -----
 
-## Step Two: Configuration
+## Step Two: Keyboard Maestro Configuration
 
-Download Keyboard Maestro and grant it proper permissions. It should prompt you for these, but if not, go to
+Open Keyboard Maestro and grant it proper permissions. It should prompt you for these, but if not, go to
 ```
 System Preferences > Security & Privacy > Click the lock in the bottom left corner to access permissions
 ```
