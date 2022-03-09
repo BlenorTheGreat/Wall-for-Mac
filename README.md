@@ -22,6 +22,6 @@ Download Keyboard Maestro and grant it proper permissions. It should prompt you 
 
 Then relaunch Keyboard Maestro. Next, open Terminal (do Command+Space and type "Terminal" to find it). Paste and run the following command:
 
-<defaults write -g NSWindowResizeTime -float 0.003>
+defaults write -g NSWindowResizeTime -float 0.003
 
 This will make it so instances will expand instantly instead of having to do the full MacOS animation (reduces time of the animation from 0.5s to 0.003s).
