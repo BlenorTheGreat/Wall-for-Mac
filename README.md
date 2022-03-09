@@ -32,6 +32,7 @@ defaults write -g NSWindowResizeTime -float 0.003
 ## Step Three: Twitch Studio Configuration
 
 Open Twitch Studio (it will ask you to sign in with your Twitch account). Create 5 scenes called "Wall Main" "Instance 1" "Instance 2" "Instance 3" "Instance 4" 
+
 ![Screen Shot 2022-03-09 at 4 21 00 PM](https://user-images.githubusercontent.com/99914793/157538114-8442bc2e-07f2-4f56-95c4-9162ecb2867a.png)
 
 
