@@ -36,4 +36,6 @@ Open Twitch Studio (it will ask you to sign in with your Twitch account). Create
 ![Screen Shot 2022-03-09 at 4 21 00 PM](https://user-images.githubusercontent.com/99914793/157538114-8442bc2e-07f2-4f56-95c4-9162ecb2867a.png)
 
 
-Next, edit the "Wall Main" scene. Add the layers "Instance 1" "Instance 2" "Instance 3" "Instance 4"
+Next, edit the "Wall Main" scene. Add the layers "Instance 1" "Instance 2" "Instance 3" "Instance 4" and a text layer on the top that indicates you're on the main screen (optional).
+
+![Screen Shot 2022-03-09 at 4 34 15 PM](https://user-images.githubusercontent.com/99914793/157540029-a073c935-01b3-479c-8b8f-12b874764c5b.png)
