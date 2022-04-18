@@ -8,7 +8,7 @@
 - Keyboard Maestro - https://www.keyboardmaestro.com/main/
 - Twitch Studio - https://www.twitch.tv/broadcast/studio
 - Macros - https://github.com/BlenorTheGreat/Wall-for-Mac/releases/latest
-- Positioning - https://www.spectacleapp.com/
+- Spectacle - https://www.spectacleapp.com/
 
 -----
 
@@ -22,6 +22,8 @@ And grant permissions to both "Keboard Maestro" and "Keyboard Maestro Engine"
 
 <img width="158" alt="Image" src="https://user-images.githubusercontent.com/99914793/157535842-1be814fa-fe28-4553-9700-c4684dabc337.png">
 <img width="236" alt="Image" src="https://user-images.githubusercontent.com/99914793/157535897-c8acb2c5-b21b-4549-b473-c93349c6da53.png">
+
+Restart Keyboard Maestro.
 
 Paste and run the following command in Terminal:
 ```
@@ -40,6 +42,11 @@ Open Twitch Studio (it will ask you to sign in with your Twitch account). Create
 Next, edit the "Wall Main" scene. Add the layers "Instance 1" "Instance 2" "Instance 3" "Instance 4" and a text layer on the top that indicates you're on the main screen (optional).
 
 ![Screen Shot 2022-03-09 at 4 34 15 PM](https://user-images.githubusercontent.com/99914793/157540029-a073c935-01b3-479c-8b8f-12b874764c5b.png)
+
+Go to the hotkey screen in settings, and set your hotkeys to the following:
+
+![Screen Shot 2022-04-18 at 2 53 09 PM](https://user-images.githubusercontent.com/99914793/163859865-aad80537-7f49-4cc4-b1b1-5917dd3ae644.png)
+
 
 ------
 
@@ -75,4 +82,20 @@ Because of the wider field of view (which may vary by machine), there will be a 
 
 ## Step Four: Configuring the Macros
 
-There are 9 macros in total. 5 for resetting, 4 for playing.
+There are 9 macros in total. 5 for resetting, 4 for playing. Let's begin with the switching macros. Select "Switch to Instance 1" (if this is your first boot of Keyboard Maestro, you might have to click edit at the bottom). 
+
+<img width="339" alt="Screen Shot 2022-04-18 at 2 42 32 PM" src="https://user-images.githubusercontent.com/99914793/163858074-e764a953-0b05-4f32-9594-e23c6420479e.png">
+
+At the top, you can bind your hotkey to switch to this instance. I have mine set to Numpad 1. The first "Move and Click" action will maximise your instance. Press "Get" and wait for the countdown. Move your mouse to be on the top bar of the window.
+
+![CURSOR](https://user-images.githubusercontent.com/99914793/163859733-599313f5-d293-4140-8d9d-73ef0fcabefb.jpg)
+
+Wait for 5 seconds for Keyboard Maestro to capture your mouse coordinates. Next, go to the GUI Condition (Pause Until Conditions are Met). Double click the top of the window. It should maximize. Start resetting by pressing the gold boots, and pause. 
+
+<img width="625" alt="Screen Shot 2022-04-18 at 3 01 48 PM" src="https://user-images.githubusercontent.com/99914793/163861020-077007fc-8b93-42c9-aa8f-92e73197bce5.png">
+
+Press "Get" and put your mouse in the gray area of any gui button.
+
+# Repeat these steps for each instance and corresponding macros.
+
+Next, let's tackle the resetting macros.
