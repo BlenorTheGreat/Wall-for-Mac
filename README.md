@@ -65,7 +65,11 @@ This is how your crop should look. ![Screen Shot 2022-04-18 at 10 42 31 AM](http
 
 ![Screen Shot 2022-04-18 at 10 43 59 AM](https://user-images.githubusercontent.com/99914793/163825009-89d37ab4-dcbc-4f05-822b-b2273f2f9192.png)
 
-Because of the wider field of view (which may vary by machine), there will be a space in the middle. Put whatever you want there or leave it blank.
+Because of the wider field of view (which may vary by machine), there will be a space in the middle. Put whatever you want there or leave it blank. Alternativley, you can set the sizing mode to stretch and resize so that there is no gap.
+
+![Screen Shot 2022-04-18 at 12 50 42 PM](https://user-images.githubusercontent.com/99914793/163842657-8c6c7675-85fd-4fa7-9faa-591a6a4e4dae.png)
+
+![Screen Shot 2022-04-18 at 12 50 53 PM](https://user-images.githubusercontent.com/99914793/163842675-3ad2b3b4-ad6a-4af7-bb65-8a5a3b831aa8.png)
 
 ------
 
