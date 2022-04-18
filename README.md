@@ -49,7 +49,7 @@ MultiMC is required for this macro. Make four instances and allocate 2048mb of R
 
 <img width="428" alt="Screen Shot 2022-04-18 at 10 07 40 AM" src="https://user-images.githubusercontent.com/99914793/163819954-b317c5d8-e731-424b-bca3-bfe5475b1aff.png">
 
-Use fabric for each (found in Edit Instance>Install Fabric) and performance mods found at https://www.minecraftspeedrunning.com. Launch each instance IN ORDER. I.E. Launch 1, wait for it to open. Launch 2, wait, etc. **DO NOT RESIZE THEM**. In your dock, they should be positioned in order. Now open Spectacle. Select instance one, and in your top bar, select "Upper Left"
+Use fabric for each (found in Edit Instance>Install Fabric) and performance mods found at https://www.minecraftspeedrunning.com (USE DYNAMIC MENU FPS). Launch each instance IN ORDER. I.E. Launch 1, wait for it to open. Launch 2, wait, etc. **DO NOT RESIZE THEM**. In your dock, they should be positioned in order. Now open Spectacle. Select instance one, and in your top bar, select "Upper Left"
 
 <img width="229" alt="Screen Shot 2022-04-18 at 10 20 52 AM" src="https://user-images.githubusercontent.com/99914793/163821682-afd0866a-6fc9-4ac6-a261-a16af6c38609.png">
 
@@ -74,3 +74,5 @@ Because of the wider field of view (which may vary by machine), there will be a 
 ------
 
 ## Step Four: Configuring the Macros
+
+There are 9 macros in total. 5 for resetting, 4 for playing.
