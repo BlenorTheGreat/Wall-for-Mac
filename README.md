@@ -43,6 +43,13 @@ Next, edit the "Wall Main" scene. Add the layers "Instance 1" "Instance 2" "Inst
 
 ![Screen Shot 2022-03-09 at 4 34 15 PM](https://user-images.githubusercontent.com/99914793/157540029-a073c935-01b3-479c-8b8f-12b874764c5b.png)
 
+Edit each Instance scene, and create a text layer and screen share. Set the screenshare to your full screen, but crop out the top bar (![Screen Shot 2022-04-18 at 3 28 06 PM](https://user-images.githubusercontent.com/99914793/163864940-19ad8697-3739-4bd4-8271-9b60b94b8503.png)
+) and dock like so:
+
+![Screen Shot 2022-04-18 at 3 27 25 PM](https://user-images.githubusercontent.com/99914793/163864861-884b31bf-9106-4e45-b0a9-52a420613054.png)
+
+Text layer should say #1. Repeat for each instance.
+
 Go to the hotkey screen in settings, and set your hotkeys to the following:
 
 ![Screen Shot 2022-04-18 at 2 53 09 PM](https://user-images.githubusercontent.com/99914793/163859865-aad80537-7f49-4cc4-b1b1-5917dd3ae644.png)
@@ -98,4 +105,28 @@ Press "Get" and put your mouse in the gray area of any gui button.
 
 # Repeat these steps for each instance and corresponding macros.
 
-Next, let's tackle the resetting macros.
+Next, let's tackle the resetting macros. Open up "Reset all Instances". I have this bound to my "END" key, but you can change that. When you're on the wall, this will reset all instances. Set the first move and click to the "Quit World" button on the first instance (press get and wait). This should populate it with coordinates. The next move and click should be the same coordinates but off by one. Example:
+
+<img width="638" alt="Screen Shot 2022-04-18 at 3 17 38 PM" src="https://user-images.githubusercontent.com/99914793/163863189-1cebc2ce-063e-4f18-9ba0-ee56563e6148.png">
+
+There should be a pause, and then two move and click actions again. Do the same for these as the first two, but for the second instance. Repeat as needed.
+
+<img width="640" alt="Screen Shot 2022-04-18 at 3 19 49 PM" src="https://user-images.githubusercontent.com/99914793/163863488-41934293-6a8a-4c71-b835-837d91771536.png">
+
+At the end, set this to look like this (ONLY IF YOU HAVE MORE THAN ONE MONITOR).
+
+Let's go to "Reset Instance 1". This is a bit more complicated. 
+
+<img width="639" alt="Screen Shot 2022-04-18 at 3 20 59 PM" src="https://user-images.githubusercontent.com/99914793/163863653-1315b792-0eaa-4d6d-b447-978a05e87e96.png">
+
+Maximize your first instance by double-clicking the top bar of the window. The pixel you need to get is the text that should say "Minecraft* 1.16.1". Click into the window, and get the text. Thanks to mac, that text will only be a certain color when the window is selected.
+
+The "Return to Wall" action can have the same coordinates. Go down to the "Otherwise Execute the Following Actions". Minimize the instance window by double-clicking, and set this mouse movement like before (the first on the leave world button, the second one pixel off).
+
+# Repeat for the rest of the reset macros.
+
+## Wrapping Up
+
+And you're done! You now should be able to run wall. To set up in the future, all you have to do is boot up your instances, use Spectacle to resize them, and add them as sources in Twitch Studio (just selecting the window in the screenshares).
+
+If you have any questions, DM me on Discord (Blenor#0614).
